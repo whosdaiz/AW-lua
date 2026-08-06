@@ -1,17 +1,26 @@
+<div align="center">
+  
 # DaizML
+
+![Lua](https://img.shields.io/badge/Lua-Aimware-0078D7?style=flat)
+![Platform](https://img.shields.io/badge/Platform-CS2-0078D7?style=flat)
+![Source](https://img.shields.io/badge/Source-Visible-0078D7?style=flat)
+![Owner](https://img.shields.io/badge/Owner-whosdaiz-0078D7?style=flat)
 
 Aimware CS2 Lua. 
 
 ## Requirements
 
-- [Aimware](https://aimware.net/) for CS2
-- Lua enabled
+
+
+[Aimware](https://aimware.net/) for CS2
+Lua enabled
 
 ## Install
 
-1. Copy `DaizML.lua` into your Aimware folder  
-2. Load it from the Lua tab
-3. Toggle the menu with the bind in **Settings** (or follow Aimware's menu if you leave that option on)
+Copy `DaizML.lua` into your Aimware folder  
+Load it from the Lua tab
+Toggle the menu with the bind in **Settings** (or follow Aimware's menu if you leave that option on)
 
 Optional assets (nade icons, particle catalog) are pulled from this repo when missing. Local files win if you already have them.
 
@@ -37,9 +46,9 @@ Menu key, appearance, config slots.
 
 ## Notes
 
-- First load mid-match is fine; skin loop should start without rejoining.
-- Grenade SVG icons look for `assets/` under the cheat or Lua folder, then fall back to GitHub.
-- Particle / sticker name lists can require HTTP. If Lua HTTP is blocked, those bits stay offline.
+First load mid-match is fine; skin loop should start without rejoining.
+Grenade SVG icons look for `assets/` under the cheat or Lua folder, then fall back to GitHub.
+Particle / sticker name lists can require HTTP. If Lua HTTP is blocked, those bits stay offline.
 
 ## Files you might see
 
@@ -57,3 +66,4 @@ For Aimware. Use at your own risk — VAC / ToS is on you.
 ## Credits
 
 Built for personal use. Bits of inspiration from other Aimware Lua scripts. 
+</div>
