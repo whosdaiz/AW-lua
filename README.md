@@ -20,7 +20,7 @@ Lua enabled
 
 Copy `DaizML.lua` into your Aimware folder  
 Load it from the Lua tab
-Toggle the menu with the bind in **Settings** (or follow Aimware's menu if you leave that option on)
+Toggle the menu with the bind (Del by default) in **Settings** (or follow Aimware's menu if you leave that option on)
 
 Optional assets (nade icons, particle catalog) are pulled from this repo when missing. Local files win if you already have them.
 
