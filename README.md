@@ -18,7 +18,7 @@ http & ffi enabled
 
 ## Install
 
-Copy `DaizML.lua` into your Aimware folder  
+Copy `DaizML.lua` into your Aimware folder (YourDrive\Users\YourWinUserName\AppData\Roaming\RandomStringsFolder1\RandomStringsFolder2)
 Load it from the Lua tab
 Toggle the menu with the bind (Del by default) in **Settings** (or follow Aimware's menu if you leave that option on)
 
