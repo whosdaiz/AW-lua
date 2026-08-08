@@ -18,11 +18,13 @@ http & ffi enabled
 
 ## Install
 
-Copy `DaizML.lua` into your Aimware folder (YourDrive\Users\YourWinUserName\AppData\Roaming\RandomStringsFolder1\RandomStringsFolder2)
-Load it from the Lua tab
-Toggle the menu with the bind (Del by default) in **Settings** (or follow Aimware's menu if you leave that option on)
+Copy `DaizML.lua` into your Aimware folder (YourDrive\Users\YourWinUserName\AppData\Roaming\RandomStringsFolder1\RandomStringsFolder2) 
 
-Optional assets (nade icons, particle catalog) are pulled from this repo when missing. Local files win if you already have them.
+Load it from the Lua tab 
+
+Toggle the menu with the bind (Del by default) in **Settings** (or follow Aimware's menu if you leave that option on) 
+
+Optional assets (nade icons, particle catalog) are pulled from this repo when missing. Local files win if you already have them. 
 
 ## What's in it
 
@@ -36,7 +38,7 @@ Save throws per map, stand markers, aimspots, hold-to-execute replay. Automatic 
 Step ESP, death effects, coach trail, viewmodel + FOV override.
 
 **Misc**  
-Watermark, velocity graph, WASD/key display, left-hand knife, sniper / deagle quickswitch.
+Watermark, velocity graph, player hud, radar overlay, WASD/key display, left-hand knife, sniper / deagle quickswitch.
 
 **Particle tester**  
 Browse / spawn particles from a catalog (downloads `DaizML_particle_catalog.txt` if needed).
@@ -50,12 +52,13 @@ First load mid-match is fine; skin loop should start without rejoining.
 Grenade SVG icons look for `assets/` under the cheat or Lua folder, then fall back to GitHub.
 Particle / sticker name lists can require HTTP. If Lua HTTP is blocked, those bits stay offline.
 
-## Files you might see
+## Files 
 
 | File | Purpose |
 |------|---------|
 | `DaizML.lua` | The script |
 | `DaizML_lineups.txt` | Saved grenade throws |
+| `DaizML_skins.txt` | Saved skins |
 | `DaizML_particle_catalog.txt` | Particle list (auto-fetched) |
 | Config slots | Saved with the cheat's config path |
 
