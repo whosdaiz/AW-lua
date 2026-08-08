@@ -61,7 +61,7 @@ Particle / sticker name lists can require HTTP. If Lua HTTP is blocked, those bi
 
 ## Disclaimer
 
-For Aimware. Use at your own risk — VAC / ToS is on you.
+Use at your own risk
 
 ## Credits
 
