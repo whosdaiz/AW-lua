@@ -9,9 +9,9 @@
 
 Aimware CS2 Lua. 
 
+<img src="./preview/readme.gif" alt="DaizML Preview" width="750" />
+
 ## Requirements
-
-
 
 [Aimware](https://aimware.net/) for CS2
 Lua enabled
@@ -30,7 +30,7 @@ Optional assets (nade icons, particle catalog) are pulled from this repo when mi
 Paint, wear, seed, stickers, nametags, charms. Inspect-link decode for hex / CSFloat-style links (inventory `S…A…D…M…` links need Steam GC — not supported). Apply to CT or T from the popup.
 
 **Grenade helper**  
-Save throws per map, stand markers, aimspots, hold-to-execute replay. Automatic recording of grenade throws and a Edit mode for renaming / deleting / managing spots. Lineups store in `DaizML_lineups.txt`.
+Save throws per map, stand markers, aimspots, hold-to-execute replay. Automatic recording of grenade throws and an Edit mode for renaming / deleting / managing spots. Lineups store in `DaizML_lineups.txt`.
 
 **Visuals**  
 Step ESP, death effects, coach trail, viewmodel + FOV override.
