@@ -14,7 +14,7 @@ Aimware CS2 Lua.
 ## Requirements
 
 [Aimware](https://aimware.net/) for CS2
-Lua enabled
+http & ffi enabled
 
 ## Install
 
