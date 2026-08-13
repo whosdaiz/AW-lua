@@ -2365,7 +2365,6 @@ function M:_drawTabBar(win)
     rfill(win.x + 1, win.y + 1, sw - 1, win.h - 2, 14, rail, true, false, true, false)
     rect(win.x + sw, win.y + 10, 1, mmax(0, win.h - 20), T.divider)
 
-    -- Brand: Lua logo (+ title when expanded)
     do
         if type(M._ensureBrandLogo) == "function" then
             pcall(M._ensureBrandLogo)
@@ -2404,7 +2403,6 @@ function M:_drawTabBar(win)
         end
     end
 
-    -- Collapse / expand control
     do
         local tx, ty, tw, th = self:_sidebarToggleRect(win)
         local hov = hovering(tx, ty, tw, th)
@@ -2454,7 +2452,6 @@ function M:_drawTabBar(win)
         end
     end
 
-    -- Profile dock
     do
         local ph = SIDEBAR_PROFILE_H - 16
         local px = win.x + (compact and 8 or 12)
@@ -2788,7 +2785,6 @@ function M:_frame()
     local real = self._win
     self._minimized = false
 
-    -- Animate sidebar width
     local targetA = self._sidebarCollapsed and 0 or 1
     self._sidebarAnim = approach(self._sidebarAnim == nil and targetA or self._sidebarAnim, targetA, 14)
     local sw = sidebarW()
@@ -15716,7 +15712,6 @@ if type(M._tick) ~= "function" then
     return
 end
 
--- Build used to hardcode 780x480 after applyValues; re-apply saved chrome last
 do
     local slot = Config.slots[Config.default or 1]
     if slot then
@@ -20865,7 +20860,6 @@ liveStatsDraw, LiveStatsReset, liveStatsEventId = (function()
         M._avatarTw, M._avatarTh = Avatar.tw, Avatar.th
     end
 
-    -- Brand mark: Lua logo (disk cache + online fetch, embedded SVG fallback)
     local BrandLogo = {
         status = "idle",
         tex = nil,
